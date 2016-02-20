@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dating Website</title>
+</head>
+<body>
+<h1>Please Enter Your Detail For Our Dating Website!</h1>
+    <form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+	<fieldset>
+	<legend>Your Face</legend>
+	<label for="photo">Your image:</label>
+	<input type="file" id="photo" name="photo" required>
+	<br>
+	<label for="preview">Image preview:</label>
+	<img id="preview" name="preview">
+	</fieldset>
+	
+	
+	<fieldset>
+	<legend>Your General Details</legend>
+	<label for="yourname">Your Name:</label>
+	<input type="text" id="yourname" name="yourname" required>
+	<br>
+	<label>Gender:</label>
+
+	<input type="radio" id="male" name="male" value="Male" required>
+	<label for="male">Male</label>
+	<input type="radio" id="female" name="female" value="Female" required>
+	<label for="female">Female</label>
+	<br>
+	<label for="age">Age:</label>
+	<input type="number" id="age" name="name" required>
+	<br>
+	<label for="yourbirthday">Date of birth:</label>
+	<input type="date" id="yourbirthday" name="yourbirthday">
+	<br>
+	<label for="yourfavcolor">Your favriout color:</label>
+	<input type="color" id="yourfavcolor" name="yourfavcolor">
+	<br>
+	<label for="country">Which contry:</label>
+	
+	
+	<select>
+	<option></option>
+	<option value="pakistan">Pakistan</option>
+	<option value="usa">USA</option>
+	<option value="uk">UK</option>
+	<option value="france">France</option>
+	<option value="italy">Italy</option>
+	</select>
+	</fieldset>
+	
+	
+	<fieldset>
+	<legend>Your indicator</legend>
+	<label for="yourheight">Height:</label><span>Short</span>
+	<input type="range" min="0" max="100" id="yourheight" name="yourheight"><span>Tall</span>
+	<br>
+	<label for="salary">Salary:</label><span>Poor</span>
+	<input type="range" min="0" max="100" id="salary" name="salary"><span>Rich</span>
+	</fieldset>
+	
+	
+	<fieldset>
+	<legend>Your contacr information</legend>
+	<label for="youremail">Email:</label>
+	<input type="email" id="youremail" name="youremail" required>
+	<br>
+	<br>
+	
+	<label for="mobile">Mobile:</label>
+	<input type="tel" id="mobile" name="mobile">
+	<br>
+	<label for="adress">Adress:</label>
+	<textarea id="adress" name="address"></textarea>
+	<br>
+	<label>Method to contact you:</label>
+	<input type="checkbox" id="email" name="email">
+	<label for="email">Email</label>
+	<input type="checkbox" id="whatsapp" name="whatsapp">
+	<label for="whatsapp">Whatsapp</label>
+	<input type="checkbox" id="inappchat" name="inappchat">
+	<label for="inappchat">Inapp-chat</label>
+	</fieldset>
+	
+	
+	<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
