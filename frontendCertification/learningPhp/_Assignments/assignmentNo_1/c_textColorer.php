@@ -5,7 +5,7 @@ function textColorer($string)
 {
     while($index<=strlen($string))
     {
-        
+
         if(($index%2)==0)
         {
             echo "<span style=\"color:magenta;\"> $string[$index] </span>";
